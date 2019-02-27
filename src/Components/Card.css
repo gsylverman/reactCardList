@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background: lightgray;
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 1px 1px 1px grey;
+    margin: 5px;
+    float: left;
+    height: 120px;
+}
+p{
+    padding: 2px;
+}
+.tit{
+    font-weight: bold;
+    padding-top: 3px ;
+}
+.card:hover{
+    background: grey;
+    transition: all 0.5s;
+    transition: 0.5s;
+    border-right: 1px solid ;
+}
+.card:hover .tit{
+    font-size: 1.1em;
+}
+
+.st:hover{
+    background: red;
+    transition: all 0.5s;
+}
